@@ -232,11 +232,18 @@ b{
 
     .showcase img{
         width: 30%;
-        height: 40%
+        height: 40%;
+        text-align: center
     }
+
 
     .introText{
         padding: 0;
+    }
+
+
+    .introImage{
+        margin: 1em 0;
     }
     
 .introImage::before{
@@ -245,6 +252,118 @@ b{
     height: 98%;
    
 
+}
+
+.introText h1{
+    font-size: 2.5em;
+}
+
+.introText p{
+    font-size: 0.8em;
+}
+
+.skills{
+    display: block;
+}
+
+.skillBox{
+    margin: 3em 0;
+    padding: 2em 1em;
+}
+
+.works{
+    display: block;
+}
+
+.experience h1{
+    font-size: 1.4em;
+    border-bottom: 1px solid rgba(204, 0, 255, 0.411);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.worksText{
+    padding: 0;
+}
+
+.worksText h3{
+    font-size: 1em;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+.worksText a{
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.worksText p{
+    font-size: 1em;
+}
+
+.worksImg img{
+    display: none;
+}
+
+
+.potfolio{
+    display: block;
+}
+
+.ports{
+    border: 1px solid black;
+    margin: 3em 0;
+    padding: 1em 0.8em;
+}
+
+.ports p{
+    font-size: 0.8em;
+}
+
+.ports h2{
+    font-size: 1em;
+}
+
+.education{
+    display: block;
+}
+
+.edubox p{
+    font-size:  0.7em;
+}
+
+.edubox{
+    border-bottom: 1px solid rgba(204, 0, 255, 0.411);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.edubox b{
+     font-size: 0.9em;
+     margin: 0;
+}
+
+.edubox h1{
+    margin: 0.4em 0;
+    font-size: 1.1em;
+    
+}
+
+.Achievements{
+    display: block;
+}
+
+.AchievementsBox{
+    padding: 2em 0;
+    -webkit-clip-path: none;
+    clip-path: none;
+    width: 100%;
+    margin: 2em 0;
+}
+
+b{
+    width: 100%;
+    
 }
 
 
